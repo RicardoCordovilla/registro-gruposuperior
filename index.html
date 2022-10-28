@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>GRUPO SUPERIOR | REGISTROS</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="logosuperior.png" type="image/x-icon">
+    <!-- <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script> -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+
+    <header class="logoBx">
+        <figure class="figura" id="logohead">
+            <img src="logosuperior.png" alt="" class="logo">
+        </figure>
+    </header>
+
+
+
+    <main class="" id="mainpage">
+
+
+        <!-- *************** RESERVAS  ***************** -->
+        <section class="reservas">
+
+            <form class="form" name="Reservas" id="formulario">
+                <div class="title">REGISTRO</div>
+
+                <div class="input-container ic1">
+                    <input id="codigo" class="input" type="text" placeholder=" " name="CODIGO" required />
+                    <div class=" cut">
+                    </div>
+                    <label for="codigo" class="placeholder">CODIGO</label>
+                </div>
+
+                <div class="input-container ic1">
+                    <input id="ubicacion" class="input" type="text" placeholder=" " name="UBICACION" required />
+                    <div class=" cut">
+                    </div>
+                    <label for="ubicacion" class="placeholder">UBICACION</label>
+                </div>
+
+                <h4>Linea</h4>
+                <div class="container">
+
+
+                    <!-- LGA -->
+                    <input type="radio" name="LINEA" id="lga" class="hidebx" value="LGA" checked />
+                    <label for="lga" class="lbl-radio">
+                        <div class="display-box">
+                            <span class="tiempo">LGA</span>
+                        </div>
+                    </label>
+
+                    <!-- LGB -->
+                    <input type="radio" name="LINEA" id="lgb" class="hidebx" value="LGB" checked />
+                    <label for="lgb" class="lbl-radio">
+                        <div class="display-box">
+                            <span class="tiempo">LGB</span>
+                        </div>
+                    </label>
+
+                    <!-- LGC -->
+                    <input type="radio" name="LINEA" id="lgc" class="hidebx" value="LGC" checked />
+                    <label for="lgc" class="lbl-radio">
+                        <div class="display-box">
+                            <span class="tiempo">LGC</span>
+                        </div>
+                    </label>
+
+                    <!-- LGD -->
+                    <input type="radio" name="LINEA" id="lgd" class="hidebx" value="LGD" checked />
+                    <label for="lgd" class="lbl-radio">
+                        <div class="display-box">
+                            <span class="tiempo">LGD</span>
+                        </div>
+                    </label>
+
+                    <!-- LGE -->
+                    <input type="radio" name="LINEA" id="lge" class="hidebx" value="LGE" checked />
+                    <label for="lge" class="lbl-radio">
+                        <div class="display-box">
+                            <span class="tiempo">LGE</span>
+                        </div>
+                    </label>
+
+
+                </div>
+
+
+
+
+
+
+                <div class="input-container ic1">
+                    <input id="funcion" class="input" type="text" placeholder=" " name="FUNCION" required />
+                    <div class=" cut">
+                    </div>
+                    <label for="funcion" class="placeholder">FUNCION</label>
+                </div>
+                <div class="input-container ic1">
+                    <!-- <textarea name="Observaciones" id="coments" cols="30" rows="4" class="input"></textarea> -->
+                    <input id="coments" class="input" type="text" placeholder=" " name="OBSERVACIONES" />
+                    <div class="cut"></div>
+                    <label for="coments" class="placeholder">Observaciones
+
+                    </label>
+                </div>
+
+
+
+                <button type="submit" class="submit" id="btn_enviar">GUARDAR</button>
+
+            </form>
+
+
+
+        </section>
+        <!-- *********************************************** -->
+
+
+
+        <!-- <section class="redes"> -->
+        <!-- <a href="https://www.instagram.com/safaerauio/" rel="noreferrer"><i class='bx bxl-instagram'></i></a> -->
+        <!-- <a href="tel:0987452534"><i class='bx bx-phone-call'></i></a> -->
+        <!-- </section> -->
+
+
+        <footer>
+            <!-- &copy; Desarrollado por: <a href="https://rundevweb.netlify.app/" target="_blank" rel="noreferrer"> | -->
+                <!-- rundev-web |</a> -->
+            <!-- &copy; <a href="https://github.com/hzvvictor">Victor Vargas </a> -->
+        </footer>
+
+    </main>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+        integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script src="sheets.js"></script>
+
+
+</body>
+
+</html>

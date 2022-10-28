@@ -21,7 +21,7 @@ form.addEventListener('submit', (e) => {
 
     setTimeout(() => {
         form.btn_enviar.innerHTML = 'Datos guardados correctamente'
-    }, 1000)
+    }, 500)
 
 
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
